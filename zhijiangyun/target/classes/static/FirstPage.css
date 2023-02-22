@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.bg{
+    height: 49.4vw;
+    position: relative;
+    background: url(background.jpg);
+    background-size: contain;
+    box-sizing: border-box;
+    padding: 0;
+    z-index: -2;
+}
+.background{
+ /*   box-sizing: border-box;
+    background: #000;
+    opacity: .8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;*/
+}
+.header{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding: 27px 80px;
+    width: 100%;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+.logo {
+    background-image: url(logo.png);
+    display: inline-block;
+    width: 85px;
+    height: 23.33px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 0;
+    filter:  grayscale(100%) brightness(120%);
+}
+.a1 {
+    color: #fff;
+    font-size: 16px;
+    padding-bottom: 6px;
+    margin-left: 100px;
+    border-bottom: 2px solid #fff;
+    font-weight: 600;
+}
+.a2 {
+    color: rgb(170, 170, 187);
+    font-size: 16px;
+    padding-bottom: 6px;
+    margin-left: 100px;
+}
+.container1 {
+    position: absolute;
+    bottom: 77px;
+    left: 6.667vw;
+}
+.article {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    height: 272.28px;
+}
+.iphone-case {
+    position: relative;
+    background-image: url(phone.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 12.4583vw;
+    height: 25.9006vw;
+    z-index: 2;
+}
+.my-video{
+    width: 11.9583vw;
+    height: 26.2306vw;
+    padding: 5px 5px 19px 10px;
+    z-index: 1;
+}
+.box1{
+    color: rgb(255, 255, 255);
+    margin-left: 6.667vw;
+    position: relative;
+}
+.p1{
+    padding-left: 3.933vw;
+    font-size: 3.333vw;
+    background-image: url(../img/logo.png);
+    background-size: 3.333vw 3.333vw;
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0px;
+}
+.p2 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0;
+    font-size: 2.361vw;
+    font-weight: 100;
+    letter-spacing: 2px;
+
+}
+.p3 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 2.214vh;
+    font-size: 1.389vw;
+    font-weight: 100;
+}
+
+.box2 {
+    padding-top: 7.987vw;
+    display: flex;
+    background-image: url("link.webp");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 103.2px;
+}
+.box3 {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.box4 {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.ios {
+    width: 9.93vw;
+    height: 0;
+    position: relative;
+    padding-bottom: 3.194vw;
+}
+
+.ios-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.android-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zjy.mapper.VideoMapper">
+
+    <update id="updateVideoById" parameterType="VideoLike">
+        update video set dzcount=#{dzcount},
+                         collectcount=#{collectcount},
+                         commentcount=#{commentcount},
+                         dzflag=#{dzflag},
+                         scflag=#{scflag} where id=#{id}
+    </update>
+
+    <select id="getFirstVideoList" resultType="Video">
+        select * from video limit 0,15;
+    </select>
+    <select id="getSecondVideoList" resultType="Video">
+        select * from video limit 15,14;
+    </select>
+    <select id="getThirdVideoList" resultType="Video">
+        select * from video limit 29,9;
+    </select>
+    <select id="getFourthVideoList" resultType="Video">
+        select * from video limit 38,8;
+    </select>
+</mapper>

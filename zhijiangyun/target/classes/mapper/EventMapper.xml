@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zjy.mapper.EventMapper">
+
+    <select id="getEventList" resultType="EventPart">
+        select * from event;
+    </select>
+
+    <select id="getFirstEventList" resultType="EventPart">
+        select * from event limit 0,4;
+    </select>
+
+    <select id="getSecondEventList" resultType="EventPart">
+        select * from event limit 4,4;
+    </select>
+    <select id="getThirdEventList" resultType="EventPart">
+        select * from event limit 8,4;
+    </select>
+    <select id="getFourthEventList" resultType="EventPart">
+        select * from event limit 12,4;
+    </select>
+    <select id="getFifthEventList" resultType="EventPart">
+        select * from event limit 16,4;
+    </select>
+</mapper>

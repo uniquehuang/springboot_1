@@ -1,0 +1,274 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="/www.w3.org/1999/xhtml">
+<head id="Head1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>等风音乐网</title>
+<meta name="Keywords" content="AKuan--想念云上的日子" />
+<meta name="Description" content="等风音乐电台" />
+<meta name="Copyright" content="aakuan.cn" />
+<link href="Images/web.css?v20150217" rel="stylesheet" />
+<link rel="stylesheet" href="css/stylesheets/style.css">
+<script src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+
+function hehe(){
+
+	var aa="<div style=' position:relative; top:-120px; width:500px; height:200px; margin-left:32%;border-radius:15px; overflow:hidden;  border: 1px solid #CECFD4;-webkit-box-shadow:#666 0px 0px 10px;'><iframe name='iframe_canvas' src='http:\\\\douban.fm/partner/baidu/doubanradio' scrolling='no' frameborder='0' width='500' height='200'  ></iframe></div>";
+
+	
+
+	document.getElementById("douban").re
+
+	document.getElementById("douban").innerHTML=aa;
+
+	
+
+	}
+
+
+
+
+
+
+
+</script>
+</head>
+<link rel="icon" href="images/wind.png" type="image/png">
+<body>
+<form method="post" action="" id="form1">
+  <div class="aspNetHidden">
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTc1NTI0MDUxNmRkhXbaTpIxMPDoysndg51aitx85REO2oAB9WjTm+jKHs4=" />
+  </div>
+  <div class="aspNetHidden">
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+  </div>
+  <div id="body" >
+    <div id="jp_container" role="application" aria-label="media player">
+      <div class="jp-type-playlist">
+        <div id="jplayer" class="jp-jplayer"></div>
+        <div class="jp-time"> <span class="jp-current-time" role="timer" aria-label="time"></span><span class="jp-duration" role="timer" aria-label="duration"></span> </div>
+      </div>
+    </div>
+  </div>
+  <div id="douban" style="margin:auto">
+    <div class="grid-music-container f-usn">
+      <div class="m-music-play-wrap">
+        <div class="u-cover"></div>
+        <div class="m-now-info">
+          <h1 class="u-music-title"><strong>标题</strong><small>歌手</small></h1>
+          <div class="m-now-controls">
+            <div class="u-control u-process"> <span class="buffer-process"></span> <span class="current-process"></span> </div>
+            <div class="u-control u-time">00:00/00:00</div>
+            <div class="u-control u-volume">
+              <div class="volume-process" data-volume="0.50"> <span class="volume-current"></span> <span class="volume-bar"></span> <span class="volume-event"></span> </div>
+              <a class="volume-control"></a> </div>
+          </div>
+          <div class="m-play-controls"> <a class="u-play-btn prev" title="上一曲"></a> <a class="u-play-btn ctrl-play play" title="暂停"></a> <a class="u-play-btn next" title="下一曲"></a> <a class="u-play-btn mode mode-list current" title="列表循环"></a> <a class="u-play-btn mode mode-random" title="随机播放"></a> <a class="u-play-btn mode mode-single" title="单曲循环"></a> </div>
+        </div>
+      </div>
+      <div class="f-cb">&nbsp;</div>
+      <div class="m-music-list-wrap"></div>
+    </div>
+    <script src="src/js/smusic.min.js"></script> 
+    <script>
+
+
+
+var musicList = [
+
+	{
+		title : '念想',
+		singer : '易烊千玺',
+		cover  : 'http://120.26.90.186:8083/resource/music/nianxiang.png',
+		src    : 'http://120.26.90.186:8083/resource/1.flac'
+	},
+		{
+		title : 'Summer',
+		singer : '徐梦圆',
+		cover  : 'http://120.26.90.186:8083/resource/music/2.jpg',
+		src    : 'http://120.26.90.186:8083/resource/music/summer.mp3'
+	},
+		{
+		title : 'River Flows in You',
+		singer : '李闰珉',
+		cover  : 'http://120.26.90.186:8083/resource/music/3.jpg',
+		src    : 'http://120.26.90.186:8083/resource/music/river.mp3'
+	},
+		{
+		title : '断桥残雪',
+		singer : '许嵩',
+		cover  : 'http://120.26.90.186:8083/resource/music/4.jfif',
+		src    : 'http://120.26.90.186:8083/resource/music/snow.mp3'
+	},
+		{
+		title : '致你',
+		singer : 'yihuik苡慧',
+		cover  : 'http://p1.music.126.net/EvWz-TdM6MUjEDS-6pmMbA==/7700979442816625.jpg',
+		src    : 'http://120.26.90.186:8083/resource/music/4.mp3'
+	},
+		{
+		title : 'Nothing to lose',
+		singer : '易烊千玺',
+		cover  : 'http://120.26.90.186:8083/resource/music/5.jfif',
+		src    : 'http://120.26.90.186:8083/resource/music/6.flac'
+	},
+		{
+		title : '飞鸟和蝉',
+		singer : '任然',
+		cover  : 'http://p1.music.126.net/R-5Tp3szxlwKd4dSxlNHhw==/7843915952927088.jpg',
+		src    : 'http://120.26.90.186:8083/resource/music/5.mp3'
+	},
+		{
+		title : '灾',
+		singer : '易烊千玺',
+		cover  : 'http://120.26.90.186:8083/resource/music/5.jfif',
+		src    : 'http://120.26.90.186:8083/resource/music/8.mp3'
+	},
+		{
+		title : '理由',
+		singer : '夏阳',
+		cover  : 'http://p1.music.126.net/4d8hnmrMxDrKnn_0i1JqyA==/1728432278871211.jpg',
+		src    : 'http://120.26.90.186:8083/resource/music/9.mp3'
+	},
+		{
+		title : 'Over Think',
+		singer : '饭卡',
+		cover  : 'http://120.26.90.186:8083/resource/music/10.jfif',
+		src    : 'http://120.26.90.186:8083/resource/music/10.mp3'
+	},
+		{
+          title : 'Dive Back In TIME',
+          singer : '白鲨JAWS',
+          cover  : 'http://120.26.90.186:8083/resource/music/10.jfif',
+          src    : 'http://120.26.90.186:8083/resource/music/11.mp3'
+	},
+		{
+		title : '下落不明',
+		singer : '张泽历',
+		cover  : 'http://p1.music.126.net/c4V1HCQvQf4anXNAmhYBdA==/6638851208513393.jpg',
+		src    : 'http://120.26.90.186:8083/resource/music/12.mp3'
+	},
+		{
+          title : '多余的解释',
+          singer : '许嵩',
+		cover  : 'http://120.26.90.186:8083/resource/music/4.jfif',
+		src    : 'http://120.26.90.186:8083/resource/music/14.mp3'
+	},
+		{
+          title : '不值得你喜欢',
+          singer : '王子明',
+		cover  : 'http://p1.music.126.net/AzS4n1yDi_90Yohr7kq3Zw==/2137450604418153.jpg',
+		src    : 'http://120.26.90.186:8083/resource/music/15.mp3'
+	},
+		{
+          title : '我们在夏枝叶繁茂相遇',
+          singer : '钱正昊',
+		cover  : 'http://120.26.90.186:8083/resource/music/16.jfif',
+		src    : 'http://120.26.90.186:8083/resource/music/16.mp3'
+	},
+		{
+          title : 'Numb',
+          singer : 'XXXTENTACION',
+		cover  : 'http://p1.music.126.net/-Rt_0o6k71V_-OZUjpi_6Q==/6641050232203243.jpg',
+		src    : 'http://120.26.90.186:8083/resource/music/17.mp3'
+	},
+		{
+          title : '银河与星斗',
+          singer : 'yihuik苡慧',
+		cover  : 'https://tse1-mm.cn.bing.net/th/id/R-C.4b67e9cf50d13bcafdca39d90488b81d?rik=mi0F1yZKRcClbw&riu=http%3a%2f%2fimge.kugou.com%2fstdmusic%2f240%2f20210626%2f20210626111929864673.jpg&ehk=6nqkIxlWVOQ%2bFOW%2fsnIOxnKnwv0dUFxJzjeJoqJ%2fcwg%3d&risl=&pid=ImgRaw&r=0',
+		src    : 'http://120.26.90.186:8083/resource/music/18.mp3'
+	},
+		{
+          title : '水星记',
+          singer : '郭顶',
+		cover  : 'https://tse1-mm.cn.bing.net/th/id/R-C.cb668bd0c3749a81ded8373c8a3e490d?rik=EBqgBj9SRWOngQ&riu=http%3a%2f%2fp2.music.126.net%2fMHie8blJj-GCGYkmndqWpQ%3d%3d%2f109951165147777167.jpg&ehk=E1M35Vnwpi6xZFN9wjBabiSUoL0iUu%2bCEkHvR4AXmRs%3d&risl=&pid=ImgRaw&r=0',
+		src    : 'http://120.26.90.186:8083/resource/music/19.mp3'
+	},
+
+  {
+    title : '放空',
+    singer : '大籽',
+    cover  : 'https://y.qq.com/music/photo_new/T002R300x300M000004SFQMC4DNyKV_1.jpg?max_age=2592000',
+    src    : 'http://120.26.90.186:8083/resource/music/21.mp3'
+  },
+
+
+	{
+
+		title : '星辰大海',
+		singer : '七叔',
+
+		cover  : 'https://tse3-mm.cn.bing.net/th/id/OIP-C.zM1rIpTHfVMbi0Rgl21vXwHaJk?w=140&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7',
+
+		src    : 'http://120.26.90.186:8083/resource/music/20.mp3'
+
+	}
+
+];
+
+
+new SMusic({
+
+	musicList:musicList
+
+});
+
+</script>
+    <link rel="stylesheet" href="src/css/smusic.css"/>
+  </div>
+  <div style=" position:relative; top:-180px; margin:auto;width:500px; height:40px"> <a style="text-align:center"  href="#" class="btn hint  hint-top" data-hint="歌曲不合口味？点击更换豆瓣电台。"><span>_</span> 豆瓣电台</a> &nbsp;  &nbsp;  &nbsp; <a style="text-align:center" href="#"   class="btn hint  hint-top" data-hint="首页还在建设中呢，就留在这里听听歌吧QAQ。"><span>_</span>返回首页</a>
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+  </div>
+  <div style="color:gray; font-family:微软雅黑; font-size:14px; position:relative; top:130px" > &copy; 2021 dengfeng.cn 云上的日子  QQ：594064930 邮箱：594064930@.qq.com <a style="color:gray; font-family:微软雅黑; font-size:14px;a:hover:black" target="_blank" href="http://xiaokuan123.qzone.qq.com/" title="留言给我">给我留言</a> &nbsp;&nbsp;&nbsp;<a style="color:gray; font-family:微软雅黑; font-size:14px;a:hover:black" target="_blank" href="http://weibo.com/xiaokuan123" title="访问微博">作者微博 &nbsp;&nbsp;南玖风</a>
+  </div>
+</form>
+</body>
+</html>
+<script type="text/javascript" src="Images/jquery.js"></script>
+<script type="text/javascript" src="Images/ThreeWebGL.js"></script>
+<script type="text/javascript" src="Images/ThreeExtras.js"></script>
+<script type="text/javascript" src="Images/Detector.js"></script>
+<script type="text/javascript" src="Images/RequestAnimationFrame.js"></script>
+<script id="vs" type="x-shader/x-vertex">
+
+			varying vec2 vUv;
+
+			void main() {
+
+				vUv = uv;
+
+				gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );
+
+			}
+
+    </script>
+<script id="fs" type="x-shader/x-fragment">
+
+			uniform sampler2D map;
+
+			uniform vec3 fogColor;
+
+			uniform float fogNear;
+
+			uniform float fogFar;
+
+			varying vec2 vUv;
+
+			void main() {
+
+				float depth = gl_FragCoord.z / gl_FragCoord.w;
+
+				float fogFactor = smoothstep( fogNear, fogFar, depth );
+
+				gl_FragColor = texture2D( map, vUv );
+
+				gl_FragColor.w *= pow( gl_FragCoord.z, 20.0 );
+
+				gl_FragColor = mix( gl_FragColor, vec4( fogColor, gl_FragColor.w ), fogFactor );
+
+			}
+
+    </script>
+<script type="text/javascript" src="Images/cloud.js"></script>
+

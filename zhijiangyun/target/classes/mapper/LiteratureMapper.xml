@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zjy.mapper.LiteratureMapper">
+
+    <select id="getLiteratureList" resultType="LiteraturePart">
+        select * from literature;
+    </select>
+
+    <select id="getFirstLiteratureList" resultType="LiteraturePart">
+        select * from literature limit 0,4;
+    </select>
+    <select id="getSecondLiteratureList" resultType="LiteraturePart">
+        select * from literature limit 4,4;
+    </select>
+</mapper>
